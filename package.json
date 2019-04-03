@@ -1,0 +1,21 @@
+{
+  "name": "openpdf",
+  "version": "1.0.0",
+  "description": "pdfViewer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package-win": "electron-packager . OpenPDF --platform=win32 --arch=x64"
+  },
+  "keywords": [
+    "PFDF",
+    "Open",
+    "pdf.js",
+    "electron"
+  ],
+  "devDependencies": {
+    "electron": "^2.0.1",
+    "electron-packager": "^13.1.1"
+  }
+}
